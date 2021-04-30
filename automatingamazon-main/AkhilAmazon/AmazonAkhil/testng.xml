@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="AmazonScenarios">
+       <classes>
+           <class name="Amazon"/>
+
+           <class name="Reports"/>
+
+            <class name="HomePage"/>
+
+            <class name="SignInPage"/>
+
+            <class name="ShoppingCartPage"/>
+
+            <class name="ShoppingCartReviewPage"/>
+
+            <class name="RemoveProduct"/>
+
+            <class name="actions.OrderActions"/>
+        </classes>
+
+    </test>
+</suite>
